@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,700&family=Roboto&display=swap');
+.addtocardbtn{
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+.addtocardbtn button{
+  padding: 18px 30px;
+  background:  #834a3b;
+  color: #fff;
+  border: 0;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Roboto" , sans-serif;
+}

@@ -1,0 +1,81 @@
+.container{
+  display: flex;
+  justify-content: center;
+  scroll-margin-top: 100px;
+  margin-bottom: 150px;
+}
+.title{
+  margin: 20px 0 20px;
+  color: #fafafa;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.formcard{
+  width: 600px;
+  height: 520px ;
+  margin-top: 40px;
+}
+.formcard-list{
+  justify-content: center;
+  display: flex;
+  background: #ddc1b1;
+  border-radius: 10px;
+}
+.input-text{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.input-mail{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.input-box{
+  display: flex;
+  flex-direction: column;
+}
+.input-box input{
+  height: 50px;
+  width: 48%;
+  margin-right: 5px;
+  border-radius: 10px;
+  border: none;
+  padding: 15px;
+}
+.address-input input{
+  width: 100%;
+  height: 50px;
+  margin-right: 5px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 15px;
+}
+input:focus{
+  outline: none;
+}
+::placeholder{
+  color:#ddc1b1;
+  padding-left: 15px;
+  font-weight: bold;
+}
+.formcard-blog{
+  width: 500px;
+  margin-bottom: 20px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.feedback-box textarea {
+  border: none;
+  width: 100%;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 15px;
+}
+textarea:focus{
+  outline: none;
+}

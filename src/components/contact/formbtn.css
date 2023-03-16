@@ -1,0 +1,19 @@
+.formbtn{
+  margin: 0 auto;
+  width: 50%;
+  height: 50px;
+  border-radius: 7px;
+  border: none;
+  background: #834a3b;
+  cursor: pointer;
+  color: #fafafa;
+  margin-top: 15px;
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  transition: background .5s;
+}
+.formbtn:hover{
+  background:#874924c2;
+}
