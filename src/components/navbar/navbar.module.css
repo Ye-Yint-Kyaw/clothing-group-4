@@ -1,0 +1,14 @@
+.navBar ul{
+    display: flex;
+  }
+  .navBar ul li a{
+    display: block;
+    padding: 25px 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    transition: color .4s;
+  }
+  .navBar ul li a:hover{
+    color: #9c9c9c;
+  }

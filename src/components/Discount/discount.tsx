@@ -6,7 +6,7 @@ type props = {
 }
 const Discount: React.FC<props> = ({title})=>{
   return(
-    <div className='discount-sec' id='discount-id'>
+    <div className='discount-sec'>
           <div className='inner-wrap'>
             <div className={styles.discountWrap}>
               <h2>Discount Products</h2>
