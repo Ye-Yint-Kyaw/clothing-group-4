@@ -1,3 +1,5 @@
+import styles from "./card.module.css";
+
 const Discountcard = (props: any)=>{
   const pictures = [
     {
@@ -18,8 +20,8 @@ const Discountcard = (props: any)=>{
 
   ];
 return(
-  <div className="card">
-    <div className="card-img">
+  <div className={styles.card}>
+    <div className={styles.cardImg}>
       {
         pictures.map(
           (pic) => {

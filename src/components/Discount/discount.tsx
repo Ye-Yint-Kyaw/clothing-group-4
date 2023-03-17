@@ -1,15 +1,16 @@
 import Discountcard from "./card";
+import styles from "./discount.module.css"
 
 type props = {
   title: string;
 }
 const Discount: React.FC<props> = ({title})=>{
   return(
-    <div className='discount-sec' id="discount-id">
+    <div className='discount-sec' id='discount-id'>
           <div className='inner-wrap'>
-            <div className="discount-wrap">
+            <div className={styles.discountWrap}>
               <h2>Discount Products</h2>
-              <div className='card-wrap'>
+              <div className={styles.cardWrap}>
                 <Discountcard title={title}/>
               </div>
             </div>

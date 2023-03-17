@@ -1,27 +1,27 @@
 import Formbtn from "./formbtn";
-import "./contact.css";
+import styles  from "./contact.module.css";
 const Contact= ()=>{
   return(
   
-              <div className="container" id="contact-id">
-                <div className="formcard">
-                      <div className="formcard-list">
-                        <div className="formcard-blog">
-                          <h1 className="title">Reach Out To Us</h1>
-                          <div className="input-box">
-                            <div className="input-text">
+             <div className={styles.container} >
+                <div className={styles.formcard}>
+                      <div className={styles.formcardList}>
+                        <div className={styles.formcardBlog}>
+                          <h1 className={styles.title}>Reach Out To Us</h1>
+                          <div className={styles.inputBox}>
+                            <div className={styles.inputText}>
                               <input type="text" placeholder="FirstName" />
                               <input type="text" placeholder="LastName" />
                             </div>
-                            <div className="input-mail">
+                            <div className={styles.inputMail}>
                               <input type="email" placeholder="Email" />
                               <input type="password" placeholder="Password" />
                             </div>
                           </div>
-                          <div className="address-input">
+                          <div className={styles.addressInput}>
                             <input type="address" placeholder="Address" />
                           </div>
-                          <div className="feedback-box">
+                          <div className={styles.feedbackBox}>
                             <textarea
                               placeholder="Type your message here"
                               id=""

@@ -1,7 +1,7 @@
 import Productcard from "./productcard";
 const Product = ()=>{
   return(
-    <div className="discount-wrap outer-wrap" id="product-id">
+    <div className="discount-wrap outer-wrap" >
       <h2>Feature Products</h2>
         <div className='product-wrap'>
           <Productcard />

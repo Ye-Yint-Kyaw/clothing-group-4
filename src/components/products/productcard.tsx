@@ -1,4 +1,6 @@
-import Productbtn from "./product-btn"
+import Productbtn from "./product-btn";
+import styles from "./productCard.module.css";
+
 const Productcard = ()=>{
   const productpic = [
     {
@@ -51,12 +53,12 @@ const Productcard = ()=>{
     }
   ]
   return(
-    <div className="p-wrap">
+    <div className={styles.pWrap}>
       {
         productpic.map(
           (pic)=>{
             return(
-              <div className="pic-size">
+              <div className={styles.picSize}>
                   <img key={pic.id} src={require('./img/' + pic.url + '.jpeg')} alt="" />
                   <h4>{pic.title}</h4>
                   <p>{pic.des}</p>

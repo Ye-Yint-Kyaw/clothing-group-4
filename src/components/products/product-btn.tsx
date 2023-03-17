@@ -1,6 +1,7 @@
+import styles from "./productCard.module.css";
 const Productbtn = ()=>{
   return(
-    <div className="p-btn">
+    <div className={styles.Btn}>
       <a href="#detail-id" className="order-btn">ORDER</a>
     </div>
   )

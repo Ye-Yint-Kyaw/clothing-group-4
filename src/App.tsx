@@ -10,9 +10,7 @@ import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
 import Detail from './components/detail/detail';
 
-type props = {
-  title: string;
-}
+
 const App = () => {
   return (
     <div>
@@ -25,32 +23,32 @@ const App = () => {
         </div>
       </div>
       {/* Products Page */}
-      <div className='product-sec'>
+      <div className='product-sec scrollmargin' id="product-id">
         <Product />
       </div>
       {/* Brand Lists */}
-      <div className='brands-sec'>
+      <div className='brands-sec scrollmargin' id="brands-id">
         <div className='inner-wrap'>
           <h2>Brand Lists</h2>
           <Brands />
         </div>
       </div>
       {/* Top Sale Page */}
-      <div className='top-sale-sec'>
+      <div className='top-sale-sec scrollmargin' id="topsale-id">
         <div className='inner-wrap'>
           
           <Topsale/>
         </div>
       </div>
       {/* Contact Us */}
-      <div className='contact-sec'>
+      <div className='contact-sec scrollmargin' id='c-id' >
         <div className='inner-wrap'>
           <Contact />
         </div>
       </div>
 
       {/* Login Page */}
-      <div>
+      <div className='login-sec scrollmargin' id="login-id">
         <Login />
       </div>
       {/* Detail Page */}

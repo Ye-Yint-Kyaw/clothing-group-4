@@ -1,0 +1,5 @@
+.cardImg img{
+    width: calc(90% / 3);
+    margin-right: 20px;
+    transition: .5s;
+  }

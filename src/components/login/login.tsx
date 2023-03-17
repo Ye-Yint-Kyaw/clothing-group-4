@@ -1,6 +1,7 @@
+import styles from "./login.module.css";
 const Login = ()=>{
   return (
-    <div className="center" id="login-id">
+    <div className={styles.center} >
       <form action="">
         <h2>Sign In</h2>
         <input type="text" placeholder="Username" required />

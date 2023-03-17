@@ -1,3 +1,4 @@
+import styles from "./brands.module.css";
 const Brands = ()=>{
   const logo = [
     {
@@ -83,11 +84,11 @@ const Brands = ()=>{
     }
   ]
   return(
-    <div className="brands-blog" id="brands-id">
+    <div className={styles.brandsBlog} >
       {
         logo.map((item)=>{
           return(
-            <div className="logo-wrap">
+            <div className={styles.logoWrap}>
               <img key={item.id} src={require('./img/' + item.url + '.png')} alt="Adidas" />
             </div>
           )
